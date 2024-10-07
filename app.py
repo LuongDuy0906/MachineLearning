@@ -172,7 +172,7 @@ def plot_learning_curve(model, X, y, model_name):
 st.title("Raisin Dataset Prediction")
 
 # Sử dụng bộ dữ liệu mặc định
-data = pd.read_csv("Raisin_Dataset.csv")
+data = pd.read_csv("data/Raisin_Dataset.csv")
 data['Class'] = data['Class'].map({'Kecimen': 0, 'Besni': 1})
 
 # Xử lý dữ liệu
