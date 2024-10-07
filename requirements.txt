@@ -4,5 +4,4 @@ pandas
 numpy
 matplotlib
 seaborn
-python 3.12
 
