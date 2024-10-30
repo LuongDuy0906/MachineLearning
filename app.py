@@ -93,7 +93,7 @@ X_train, X_val, y_train, y_val = train_test_split(X_train, y_train, test_size=0.
 st.write("## Input Data for Prediction")
 input_data = []
 for feature in data.columns[:-1]:
-    value = st.number_input(f"Enter {feature}", min_value=0.0, max_value=1000000.0, value=1500.0, step=1.0)
+    value = st.number_input(f"Enter {feature}", min_value=0.0, max_value=1000000.0, value=1500.0, step=1.0, format="%.7f")
     input_data.append(value)
 
 st.write("### Choose a model for prediction")
